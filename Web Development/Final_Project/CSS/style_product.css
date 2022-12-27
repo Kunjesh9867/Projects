@@ -1,0 +1,87 @@
+header {
+    background-image: url('../img/company_back.webp');
+    padding: 2px;
+}
+
+header>h1 {
+    text-align: center;
+    color: orangered;
+}
+
+.heading {
+    background-image: url('../img/company_back.webp');
+    padding: 2px;
+    text-align: center;
+    color: orangered;
+
+}
+
+
+.example {
+    padding: 2% -10%;
+    background-color: #fff;
+    color: #000000;
+    display: grid;
+}
+
+
+.example-1,
+.example-2,
+.example-3,
+.example-4 {
+    grid-template-columns: 80% 60%;
+}
+
+.example-1>div,
+.example-2>div,
+.example-3>div,
+.example-4>div {
+    padding: 15px;
+}
+
+.example-1>div>img,
+.example-2>div>img,
+.example-3>div>img,
+.example-4>div>img {
+    width: 30%;
+    height: auto;
+}
+
+.colorful {
+    background-color: lightgreen;
+    font-size: 2em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+aside {
+    grid-area: sidebar;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #626262;
+}
+
+aside>article {
+    padding: 15px;
+    text-align: center;
+}
+
+aside>article>img {
+    width: 40%;
+    height: auto;
+}
+
+aside>article>h4 {
+    font-size: 2;
+}
+
+footer {
+    padding: 3%;
+    background-color: #000;
+}
+
+footer h1 {
+    color: #fff;
+    font-size: 3em;
+    text-align: center;
+}

@@ -1,0 +1,29 @@
+body {
+    text-align: center;
+    background-image: url('../img/company_back.webp');
+}
+
+header {
+    /* background-image: url('../img/company_back.webp'); */
+    padding: 2px;
+}
+
+header>h1 {
+    text-align: center;
+}
+
+h3 {
+    font-family: cursive;
+    padding: 5%;
+}
+
+footer {
+    padding: 3%;
+    background-color: #000;
+}
+
+footer h1 {
+    color: #fff;
+    font-size: 3em;
+    text-align: center;
+}

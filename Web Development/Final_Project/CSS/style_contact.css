@@ -1,0 +1,53 @@
+  
+/* Below CSS is used for the General body Section */
+body {
+    background-image: url('../img/contact_background.webp');
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+/* Below CSS is used for header section */
+header {
+    /* background-image: url('../img/company_back.webp'); */
+    padding: 2px;
+}
+
+header>h1 {
+    text-align: center;
+    color: yellow;
+}
+
+
+b,
+div>b {
+    background-color: aqua;
+    font-size: 2em;
+}
+
+#bold {
+    text-align: center;
+    background-color: yellow;
+}
+
+div {
+    text-align: center;
+}
+
+form {
+    background-color: #fff;
+}
+
+
+/* Below CSS is used for footer section */
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 2px;
+}
+
+
+.file2>div {
+    text-align: center;
+    background-color: yellow;
+}

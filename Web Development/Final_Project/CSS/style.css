@@ -1,0 +1,70 @@
+/* css properties for the body */
+body {
+    margin: 0px;
+
+}
+
+p,
+a,
+li {
+    font-size: 1.2em;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+#home_div {
+    font-size: 2em;
+    background-color: orange;
+    color: #000;
+}
+
+/* css properties for the header section */
+header {
+    display: flex;
+    align-items: center;
+    height: 120px;
+    background-image: url('../img/R.jpg');
+    grid-area: header;
+}
+
+header>div {
+    flex-grow: 1;
+    height: 120px;
+}
+
+.logo-container {
+    width: auto;
+    height: 100%;
+}
+
+header>nav>ul {
+    display: flex;
+    list-style: none;
+}
+
+header>nav>ul>li {
+    padding: 0px 15px;
+}
+
+header>nav>ul>li>a {
+    color: #fff;
+}
+
+#A {
+    width: 100%;
+    height: auto;
+}
+
+
+/* css properties for the footer section */
+footer {
+    padding: 3%;
+    background-color: #000;
+    
+}
+
+footer h1 {
+    color: #fff;
+    font-size: 3em;
+    text-align: center;
+}
