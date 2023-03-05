@@ -1,0 +1,251 @@
+<!-- 
+
+    Note :- I have not used ASIDE part as it not required.
+    3 Parts are Used :- Header, Main, Footer.
+    Proper input types and CSS is used where required.
+
+-->
+
+
+<!-- To state the browser about latest version of HTML i.e HTML5 -->
+<!DOCTYPE html>
+
+<!-- The language of the html file is english -->
+<html lang="en">
+
+<head>
+    <!-- To use UTF-8 which has wide range of characters -->
+    <meta charset="UTF-8">
+
+    <!-- To adjust the width of the file according to the device width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- To add description to the file  -->
+    <meta name="description" content="This is an Assignment 2">
+
+    <!-- Not to show the websiter on search engines like Google, Edge, Safari etc -->
+    <meta name="robots" content="NOINDEX,NOFOLLOW">
+
+    <!-- To give Title to the HTML file -->
+    <title>Assignment_1</title>
+
+    <!-- To link external CSS -->
+    <link rel="stylesheet" href="./CSS/style.css ">
+</head>
+
+<body>
+    <!-- Header section contains the heading and a note for the customer  -->
+    <header>
+        <h1> <q> Phoenix Pizzeria </q></h1>
+        <p><strong>Note:</strong> You can order a single type of pizza at a time and we only accept delivery order (no
+            pick-up) through website.</p>
+            
+    </header>
+
+    <!-- The main section comprises of a form with different input type -->
+    <main>
+
+        <div id="img">
+            <img src="./image/20483607.jpg" alt="" width="100%" height="100%"> 
+        </div>
+        
+        <!-- Here method is taken as "get" with autocomplete= "on" and a new html file will be opened when the customer hits the Submit button at the end of the file which display the message that the order is placed (in new tab in browser that's why target= _blank is used) -->
+        <!-- <form action="./file2.html" method="POST" autocomplete="on" target="_blank">
+            </form> -->
+        <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']);?>" method="POST">
+
+            <!-- Fieldset is used to give a border to the form -->
+            <fieldset>
+
+                <!-- legend is used to display the message -->
+                <legend>Let's Order a Pizza</legend>
+
+                <!-- Name is used with required field and autofocus (i.e when the file will load the cursor will automatically placed at the Name file, reduces order time ) -->
+                <label><strong>Name:</strong> </label>
+                <input type="text" required autofocus name="Name"> <br><br>
+
+                <!-- Email -->
+                <label><strong>Email: </strong></label>
+                <input type="email" required name="Email"> <br> <br>
+
+                <!-- Password -->
+                <label><strong>Password:</strong></label>
+                <input type="password" required name="Password"> <br><br>
+
+                <!-- Contact Number (with placeholder to display how to add phone number) -->
+                <label><strong> Contact Number:</strong> </label>
+                <input type="tel" placeholder="Format: 1234567890" required name="Contact"><br><br>
+
+
+                <!-- Address Type -->
+                <label><strong>Address Type:</strong></label>
+                <select name="AddressType" id="at">
+                    <option value="Home" selected>Home</option>
+                    <option value="Work">Work</option>
+                    <option value="Other">Other</option>
+                </select><br>
+                <br>
+
+                <!-- Address (with textarea so that the customer can increase or decrease the size of the field according to the need) -->
+                <label><strong>Address:</strong></label><br>
+                <textarea name="Address" cols="20" rows="2" required></textarea> <br><br>
+
+                <!-- City -->
+                <label><strong>City:</strong></label>
+                <input type="text" required name="City"><br><br>
+
+                <!-- State -->
+                <label><strong>Province:</strong></label>
+                <input type="text" required name="Province"><br><br>
+
+                <!-- PIN Code -->
+                <label><strong>PIN code:</strong></label>
+                <input type="text" required name="Pin"><br><br>
+
+
+
+                <!-- Pizza Type ("select" is used to make a drop down menu for the customer) -->
+                <label><strong>Pizza Type:</strong> </label>
+                <select>
+                    <option>Veggie</option>
+                    <option> ExtravaganZZa</option>
+                    <option>Broklyn Pizza</option>
+                    <option>BBQ Chicken Feast</option>
+                    <option>Deluxe</option>
+                    <option>Hawaiian</option>
+                    <option>Philly Steak</option>
+                    <option>Pepperoni Feast</option>
+                    <option>Chicken Bacon Alfredo Pizza</option>
+                    <option>6 Cheese Pizza</option>
+                    <option>Spinach and Feta Pizza</option>
+                    <option>Chicken Bacon Ranch Pizza</option>
+                    <option>Pacific Veggie Pizza</option>
+                </select><br><br>
+
+                <!-- Quantity (of the Pizza) -->
+                <label><strong> Quantity:</strong></label>
+                <input type="number" required><br> <br>
+
+
+                <!--<label for=""><strong>Pizza Size: </strong></label>
+                <input type="radio" id="small" name="PizzaSize" value="small">
+                <label for="small">Small</label>
+                <input type="radio" id="medium" name="PizzaSize" value="medium">
+                <label for="medium">Medium</label>
+                <input type="radio" id="large" name="PizzaSize" value="large">
+                <label for="large">Large</label> <br><br> -->
+
+                <!-- Pizza Size (With Drop Down) -->
+                <label><strong>Pizza Size:</strong> </label>
+                <select name="PizzaSize">
+                    <option>Small (10")</option>
+                    <option>Medium (12")</option>
+                    <option>Large (14")</option>
+                </select><br><br>
+
+
+                <!-- Choose your Crust (with Drop Down Menu) -->
+                <label><strong>Choose your Crust:</strong> </label>
+                <select name="Crust">
+                    <option>HAND TOSSED THIN</option>
+                    <option selected>ORIGINAL HAND TOSSED</option>
+                    <option>CRUNCHY THIN CRUST</option>
+                </select><br><br>
+
+
+                <!-- Cheese (checked is used to make it default (customer are able to unchecked it too)) -->
+                <label><strong>Cheese: </strong></label>
+                <input type="checkbox" name="Cheese" checked> <br><br>
+
+
+                <!-- To add more Cheese-->
+                <label><strong>Like Cheese? Cheese it up with extra cheese</strong></label>
+                <input type="radio" name="MoreCheese">
+                <label>Yes &nbsp;</label>
+                <input type="radio" name="MoreCheese" checked>
+                <label>No &nbsp; </label> <br><br>
+
+
+                <!-- Choose a Sauce -->
+                <!-- Only 1 type of sauce can be selected -->
+                <label><strong>Choose a Sauces: &nbsp;</strong></label>
+                <input type="radio" name="Sauce" checked>
+                <label>Pizza Sauce&nbsp;</label>
+                <input type="radio" name="Sauce">
+                <label>BBQ Sauce&nbsp;</label>
+                <input type="radio" name="Sauce">
+                <label>Alfredo Sauce&nbsp;</label>
+                <input type="radio" name="Sauce">
+                <label>Hearty Marinara Sauce&nbsp;</label>
+                <input type="radio" name="Sauce">
+                <label>Ranch Dressing&nbsp;</label>
+                <input type="radio" name="Sauce">
+                <label>Garlic Parmesan Sauce&nbsp;</label> <br><br>
+
+
+                <!-- Choose Meat (with unordered list) -->
+                <label> <strong>Choose Meat:</strong></label>
+                <ul>
+
+                    <li><input type="checkbox" name="Meat"> <label>Pepperoni</label></li>
+                    <li><input type="checkbox" name="Meat"> <label>Brooklyn Pepperoni</label></li>
+                    <li><input type="checkbox" name="Meat"> <label>Sausage</label></li>
+                    <li><input type="checkbox" name="Meat"> <label>Beef Crumble</label></li>
+                    <li><input type="checkbox" name="Meat"> <label>Ham</label></li>
+                    <li><input type="checkbox" name="Meat" checked> <label>Bacon</label></li>
+                    <li><input type="checkbox" name="Meat"> <label>Chicken</label></li>
+                    <li><input type="checkbox" name="Meat"> <label>Philly Steak</label></li>
+
+                </ul>
+
+
+                <!-- Choose Non-meat from below (with unordered list) -->
+                <label><strong>Choose Non-Meat:</strong></label>
+                <ul>
+
+                    <li><input type="checkbox" name="NonMeat" checked> <label>Cheddar</label></li>
+                    <li><input type="checkbox" name="NonMeat"> <label>Feta</label></li>
+                    <li><input type="checkbox" name="NonMeat"> <label>Parmesan Asiago</label></li>
+                    <li><input type="checkbox" name="NonMeat"> <label>Provolone</label></li>
+                    <li><input type="checkbox" name="NonMeat"> <label>Hot Banana Pepper</label></li>
+                    <li><input type="checkbox" name="NonMeat"> <label>Black Olives</label></li>
+                    <li><input type="checkbox" name="NonMeat"> <label>Green Olives</label></li>
+                    <li><input type="checkbox" name="NonMeat" checked> <label>Green Pepper</label></li>
+                    <li><input type="checkbox" name="NonMeat"> <label>Mushroom</label></li>
+                    <li><input type="checkbox" name="NonMeat"> <label>Pineapple</label></li>
+                    <li><input type="checkbox" name="NonMeat" checked> <label>Onion</label></li>
+                    <li><input type="checkbox" name="NonMeat" checked> <label>Tomatoes</label></li>
+                    <li><input type="checkbox" name="NonMeat" checked> <label>Jalapeno Peppers</label></li>
+                    <li><input type="checkbox" name="NonMeat"> <label>Baby Spinach</label></li>
+                    <li><input type="checkbox" name="NonMeat" checked> <label> Roasted Red Peppers</label></li>
+                </ul>
+                <br>
+
+
+                <!-- Submit button (inspite of type="button" , button can also be used but I have used input here ) -->
+                <input type="submit" value="SUBMIT" class="abc">
+
+
+                <!-- Reset Button -->
+                <input type="reset" value="RESET" class="abc">
+
+
+            </fieldset>
+
+        </form>
+
+    </main>
+    <!--End of Main File-->
+    <br>
+
+
+    <!--Footer Part is used to displayed a message  -->
+    <footer>
+        <h1>End of Form</h1>
+    </footer>
+
+
+
+</body>
+
+</html>

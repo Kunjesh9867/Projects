@@ -1,0 +1,131 @@
+/* 
+    This is the CSS file of Assignment2.
+    It contains CSS Styling where required.
+*/
+
+
+/* To increase font size and text align */
+legend{
+    text-align: center;
+    font-size: 25px;
+}
+
+
+/* To Increase font size in fieldset section */
+fieldset{
+    font-size: 20px;
+}
+
+
+/* To add background color to the body section and set appropriate margin */
+body{
+    background-color: #EAE5DD;
+    margin: 0px;
+}
+
+
+/* To set list style of unordered list to NONE */
+body > main > form > fieldset > ul {
+    list-style: none;
+}
+
+
+/* To set some styling to the text */
+h1,p,label{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+/* To add some of the properties to the header section  */
+header{
+    
+    text-align: center;
+    background-color: #00B7FF;
+    border: 5px solid black;
+    border-radius: 30px;
+    height: auto;
+    width: auto;
+    margin: 40px;
+    padding-top: 0px;
+}
+
+
+/* To set backgroung color and background properties to the form section */
+form{
+    background-image: url('../image/blue-pink-halftone-background_53876-99004.webp');
+    /* background-image: url('../image/blur_bg_pizza_new.jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ /* #img{
+    background-size: cover;
+    height: 400px;
+    width: 300px;
+
+} */
+
+
+/* To set background color when the input section is on focus */
+input:focus, textarea:focus{
+    background-color: lightgreen;
+}
+
+
+/* I have make class of SUBMIT & RESET button and this property will be applied when they are on focus */
+.abc:hover{
+    background-color: cyan;
+}
+
+
+/* I have make class of SUBMIT & RESET button and this property will be applied when they are on focus */
+.abc{
+    font-size: 20px;
+}
+
+
+/* I have add few properties to the footer section as required */
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 25px;
+}
+
+/* I have add few properties to the footer section as required */
+footer:hover{
+    background-color: #E99B1E;
+}
+
+
+/* 
+    The CSS properties below this part is of second file when the order is placed and the user press the SUBMIT button.
+
+*/
+
+/* The id of file2 is #part2 */
+
+#part2 > div >h1,h2{
+    text-align: center;
+    font-size: 50px;
+}
+
+
+#part2 > div{
+    background-color: cyan;
+    border: 4px solid black;
+    border-radius: 30px;
+    height: auto;
+    width: auto;
+    margin: 10px;
+    padding: 0px;
+}
+
+
+#part2{
+    background-image: url('../image/20483607.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
