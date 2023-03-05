@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ColorPicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="710.0" prefWidth="600.0" style="-fx-background-color: #746AB0;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.kunjesh_final_assignment.Final_Assignment">
+    <children>
+        <Label alignment="CENTER" layoutX="-1.0" layoutY="14.0" prefHeight="35.0" prefWidth="600.0" style="-fx-background-color: #403226; -fx-text-fill: #ee7811;" text="TEACHER" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="22.0" />
+            </font>
+        </Label>
+        <Rectangle arcHeight="5.0" arcWidth="5.0" height="447.0" layoutX="54.0" layoutY="54.0" strokeType="INSIDE" width="492.0">
+            <stroke>
+                <RadialGradient centerX="0.4778761061946903" centerY="0.5" radius="0.5">
+                    <stops>
+                        <Stop>
+                            <color>
+                                <Color red="0.6631578803062439" green="0.054035086184740067" blue="0.054035086184740067" />
+                            </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                            <color>
+                                <Color red="1.0" green="1.0" blue="1.0" />
+                            </color>
+                        </Stop>
+                    </stops>
+                </RadialGradient>
+            </stroke>
+            <fill>
+                <LinearGradient endX="0.37642583375647953" endY="0.25475280819736956" startX="0.3460075828059091" startY="1.0">
+                    <stops>
+                        <Stop>
+                            <color>
+                                <Color red="0.1337231993675232" green="0.7066861391067505" blue="0.7368420958518982" />
+                            </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                            <color>
+                                <Color red="0.18545809388160706" green="0.7052631378173828" blue="0.44536063075065613" />
+                            </color>
+                        </Stop>
+                    </stops>
+                </LinearGradient>
+            </fill></Rectangle>
+        <Line endX="266.0" endY="65.39997863769531" layoutX="278.0" layoutY="140.0" startX="-223.99998474121094" startY="65.39997863769531" />
+        <Line endX="256.0" endY="32.0" layoutX="290.0" layoutY="335.0" startX="-236.0" startY="32.0" />
+        <Line endX="-8.400009155273438" endY="-180.0" layoutX="218.0" layoutY="234.0" startX="-8.400009155273438" startY="267.0" />
+        <Line endX="-16.5999755859375" endY="388.0" layoutX="383.0" layoutY="113.0" startX="-16.5999755859375" startY="-59.000003814697266" />
+        <Line endX="369.0" endY="0.79998779296875" layoutX="176.0" layoutY="472.0" startX="-123.0" startY="0.79998779296875" />
+        <Pane fx:id="pane0" layoutX="79.0" layoutY="73.0" prefHeight="83.0" prefWidth="89.0" style="-fx-background-color: #ffffff;" />
+        <Pane fx:id="pane1" layoutX="242.0" layoutY="73.0" prefHeight="83.0" prefWidth="89.0" style="-fx-background-color: #ffffff;" />
+        <Pane fx:id="pane2" layoutX="409.0" layoutY="73.0" prefHeight="83.0" prefWidth="89.0" style="-fx-background-color: #ffffff;" />
+        <Pane fx:id="pane4" layoutX="241.0" layoutY="232.0" prefHeight="83.0" prefWidth="89.0" style="-fx-background-color: #ffffff;" />
+        <Pane fx:id="pane3" layoutX="79.0" layoutY="232.0" prefHeight="83.0" prefWidth="89.0" style="-fx-background-color: #ffffff;" />
+        <Pane fx:id="pane5" layoutX="409.0" layoutY="232.0" prefHeight="83.0" prefWidth="89.0" style="-fx-background-color: #ffffff;" />
+        <Pane fx:id="pane6" layoutX="79.0" layoutY="378.0" prefHeight="83.0" prefWidth="89.0" style="-fx-background-color: #ffffff;" />
+        <Pane fx:id="pane7" layoutX="238.0" layoutY="378.0" prefHeight="83.0" prefWidth="89.0" style="-fx-background-color: #ffffff;" />
+        <Pane fx:id="pane8" layoutX="409.0" layoutY="378.0" prefHeight="83.0" prefWidth="89.0" style="-fx-background-color: #ffffff;" />
+        <Text fill="#e5ff1a" layoutX="70.0" layoutY="602.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name of Student">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Text>
+        <TextField fx:id="nameOfStudent" layoutX="266.0" layoutY="578.0" prefHeight="29.0" prefWidth="227.0" />
+        <Text fill="#e5ff1a" layoutX="102.0" layoutY="640.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Student Color" wrappingWidth="136.51715087890625">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Text>
+        <Button layoutX="223.0" layoutY="656.0" mnemonicParsing="false" onAction="#onAddStudent" prefHeight="35.0" prefWidth="127.0" style="-fx-background-color: #2cc418;" text="Add Student" textFill="#0024ff">
+            <font>
+                <Font size="18.0" />
+            </font></Button>
+        <ColorPicker fx:id="studentColor" layoutX="266.0" layoutY="615.0" prefHeight="30.0" prefWidth="166.0" />
+        <Text fx:id="student0" layoutX="77.0" layoutY="201.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name" textAlignment="CENTER" wrappingWidth="93.19999999999982">
+            <font>
+                <Font size="19.0" />
+            </font></Text>
+        <Text fx:id="student4" layoutX="240.0" layoutY="364.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name" textAlignment="CENTER" wrappingWidth="93.19999999999993">
+            <font>
+                <Font size="19.0" />
+            </font></Text>
+        <Text fx:id="student3" layoutX="77.0" layoutY="364.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name" textAlignment="CENTER" wrappingWidth="93.19999999999993">
+            <font>
+                <Font size="19.0" />
+            </font></Text>
+        <Text fx:id="student2" layoutX="407.0" layoutY="201.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name" textAlignment="CENTER" wrappingWidth="93.19999999999993">
+            <font>
+                <Font size="19.0" />
+            </font></Text>
+        <Text fx:id="student1" layoutX="233.0" layoutY="201.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name" textAlignment="CENTER" wrappingWidth="106.40001220703118">
+            <font>
+                <Font size="19.0" />
+            </font></Text>
+        <Text fx:id="student8" layoutX="407.0" layoutY="494.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name" textAlignment="CENTER" wrappingWidth="93.19999999999993">
+            <font>
+                <Font size="19.0" />
+            </font></Text>
+        <Text fx:id="student7" layoutX="240.0" layoutY="494.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name" textAlignment="CENTER" wrappingWidth="93.19999999999993">
+            <font>
+                <Font size="19.0" />
+            </font></Text>
+        <Text fx:id="student6" layoutX="77.0" layoutY="494.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name" textAlignment="CENTER" wrappingWidth="93.19999999999993">
+            <font>
+                <Font size="19.0" />
+            </font></Text>
+        <Text fx:id="student5" layoutX="407.0" layoutY="363.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name" textAlignment="CENTER" wrappingWidth="93.19999999999993">
+            <font>
+                <Font size="19.0" />
+            </font></Text>
+        <Label fx:id="messageToBeDisplayed" alignment="CENTER" contentDisplay="CENTER" layoutX="3.0" layoutY="509.0" prefHeight="62.0" prefWidth="600.0" text="Label">
+            <font>
+                <Font name="System Bold Italic" size="33.0" />
+            </font>
+        </Label>
+        <Line endX="362.0" layoutX="182.0" layoutY="346.0" startX="-127.99998474121094" />
+        <Line endX="265.0" endY="65.39997863769531" layoutX="281.0" layoutY="115.0" startX="-226.0" startY="65.39997863769531" />
+    </children>
+</AnchorPane>
