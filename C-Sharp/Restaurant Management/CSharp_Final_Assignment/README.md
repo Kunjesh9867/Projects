@@ -83,8 +83,11 @@
 
 <div align="center">Displaying All Employee Record</div>
 <hr>
+<hr>
+<hr>
 
-2. **Exit**
+
+3. **Exit**
 
 ![Exit-Screenshot](./images/SS-8.png)
 
