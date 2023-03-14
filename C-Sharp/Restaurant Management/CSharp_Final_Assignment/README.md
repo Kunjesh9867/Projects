@@ -9,19 +9,24 @@
 
  - In this Assignment, I have created a Console-based Restaurant management system.
  - There are 3 interfaces.
-| CUSTOMER | ADMIN | Exit |
-|---|---|---|
-|  1 | 3  |  3 |
-|  3 |   3| 3  |
-|  3 | 3  | 3  |
 
- - For Admin, You have to enter a password then you can log in to admin section.
+| CUSTOMER                                                                 | ADMIN                      | Exit                  |
+|:---                                                                      | :---                       |:---                   |
+| Welcome message for customers                                            | Enter a Password to log in | To terminate the loop |
+| Display main menu items                                                  | Get a Main Menu Interface  |                       |
+| Customers will choose a main menu item (Eg: Soup)                        | Can perform various tasks  |                       |
+| Out of given options (Eg: Chicken Noodle Soup), customer will choose one | Exit                       |                       |
+| After choosing, customer will direct to menu item                        |                            |                       |
+| Customers will choose another menu item                                  |                            |                       |
+| At the end of order, customer will get subtotal                          |                            |                       |
+|                                                                          |                            |                       |
 
- - The cards of the laptop are automated.
- - It has a catchy design to easily go through the game.
+ - It has a basic design to easily follow the code .
+ - Code is well-indented, formatted and comments are added where required.
 
  ## Project features
- - You can play this game in your leisure time ;)  
+ - This idea can be implemented in real life game.
+ - To enhance user's experience, GUI can be added.
   
 ## Programming Language and Technologies used
  
@@ -31,33 +36,21 @@
 
 ## Resources
 1. College Notes
-2. YouTube Tutorials
-3. W3Schools
-4. GeeksforGeeks
-5. Stack Overflow
+2. W3Schools
+3. GeeksforGeeks
+4. Stack Overflow
 
-
-## Website Screenshots
 
 ### Game Screenshots
 
-1. Introduction 
+1. **Customer**
 
-![Game-Introduction](./images/SS-1.png)
+![Customer-Screenshot-1](./images/SS-1.png)
 
+<div align="center">Introduction & Main Menu</div>
 <hr> 
 
-2. Main interface
 
-* Page-1
-
-![Page-1](./images/SS-2.png)
-
-<hr>
-
-* Page-2
-
-![Page-2](./images/SS-3.png)
 
 # Thank You
 
