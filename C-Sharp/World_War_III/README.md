@@ -10,7 +10,7 @@ In this game, I have created a Console-based battle game.
 |:---               | :---     | :---    |:--                          |
 | User              | Armor    | Attack  |Bomb(Only available to User) |
 | Enemy (Computer)  | Weapon   | Heal    |                             |
-|                   |          |         |  
+
 
 Note: Armor and Weapon is pre-defined for Enemy. 
 
