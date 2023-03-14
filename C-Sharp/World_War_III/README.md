@@ -1,42 +1,55 @@
 # World War III
 
- ## Introduction
+## Introduction
 
-- I have created this game for fun in my leisure time.
-- In this game, I have created a Console-based battle game.
+I have created this game for fun in my leisure time.
 
-> <mark style="background-color: #FFFF00">Players</mark>
->   
-> It is played between 
+In this game, I have created a Console-based battle game.
 
-==aaaaa==
- - It has a basic design to easily follow the code .
- - Code is well-indented, formatted and comments are added where required.
+| Players           | Features | Choices | Extra Feature               |
+|:---               | :---     | :---    |:--                          |
+| User              | Armor    | Attack  |Bomb(Only available to User) |
+| Enemy (Computer)  | Weapon   | Heal    |                             |
+|                   |          |         |  
 
- ## Project features
- - This idea can be implemented in real life applications.
- - To enhance user's experience, GUI can be added.
-  
+Note: Armor and Weapon is pre-defined for Enemy. 
+
+It has a basic design to easily follow the code .
+
+Code is well-indented, formatted and comments are added where required.
+
+## Project Features
+
+<details>
+  <summary>Click me</summary>
+
+1. Each armor has different health According to Armor choice, the total health is calculated.
+
+2. Each weapon has different health damage. According to Weapon choice, the health damage is calculated.
+
+3. You can play this game in your leisure time ;) 
+ 
+</details>
+<details>
+  <summary>Prize</summary>
+  A COOKIE! 🤩🤩🤩
+</details>
+
 ## Programming Language and Technologies used
  
- - [x] C#
- - [x] JetBrains Rider
+- [x] C#
+- [x] JetBrains Rider
 
 
 ## Resources
 1. College Notes
-2. W3Schools
-3. GeeksforGeeks
-4. Stack Overflow
-
+2. Google
 
 ## Screenshots
 
-1. **Customer**
+![Screenshot-1](./images/SS-1.png)
 
-![Customer-Screenshot-1](./images/SS-1.png)
-
-<div align="center">Introduction & Main Menu</div>
+<div align="center">Introduction</div>
 <hr> 
 
 ![Customer-Screenshot-2](./images/SS-2.png)
