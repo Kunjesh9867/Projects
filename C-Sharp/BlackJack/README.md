@@ -48,5 +48,5 @@
 
 ![Page-2](./images/SS-3.png)
 
-# **A Big Thank You**
+# <div align="center">**A Big Thank You!**</div>
 
