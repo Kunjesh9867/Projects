@@ -25,7 +25,7 @@
  - Code is well-indented, formatted and comments are added where required.
 
  ## Project features
- - This idea can be implemented in real life game.
+ - This idea can be implemented in real life applications.
  - To enhance user's experience, GUI can be added.
   
 ## Programming Language and Technologies used
@@ -41,7 +41,7 @@
 4. Stack Overflow
 
 
-### Game Screenshots
+### Screenshots
 
 1. **Customer**
 

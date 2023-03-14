@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kunje\\Music\\World_War_III\\World_War_III\\World_War_III.csproj",
+      "projectUniqueName": "C:\\Users\\kunje\\Desktop\\Project_local\\C-Sharp\\World_War_III\\World_War_III\\World_War_III.csproj",
       "projectName": "World_War_III",
-      "projectPath": "C:\\Users\\kunje\\Music\\World_War_III\\World_War_III\\World_War_III.csproj",
+      "projectPath": "C:\\Users\\kunje\\Desktop\\Project_local\\C-Sharp\\World_War_III\\World_War_III\\World_War_III.csproj",
       "packagesPath": "C:\\Users\\kunje\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kunje\\Music\\World_War_III\\World_War_III\\obj\\",
+      "outputPath": "C:\\Users\\kunje\\Desktop\\Project_local\\C-Sharp\\World_War_III\\World_War_III\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\kunje\\AppData\\Roaming\\NuGet\\NuGet.Config"
