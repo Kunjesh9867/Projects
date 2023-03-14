@@ -6,7 +6,7 @@
  
  ## Introduction
 
- - In this Assignment, I have created a Console-based game between a player and laptop
+ - In this Assignment, I have created a Console-based game between a player and laptop.
  - It is a simple Blackjack game.
  - It comprises all the rules.
  - The cards of the laptop are automated.
@@ -22,11 +22,11 @@
 
 
 ## Resources
-* College Notes
-* YouTube Tutorials
-* W3Schools
-* GeeksforGeeks
-* Stack Overflow
+1. College Notes
+2. YouTube Tutorials
+3. W3Schools
+4. GeeksforGeeks
+5. Stack Overflow
 
 
 ## Website Screenshots
