@@ -50,6 +50,11 @@
 <div align="center">Introduction & Main Menu</div>
 <hr> 
 
+![Customer-Screenshot-2](./images/SS-2.png)
+
+<div align="center">Choosing a specific item from menu</div>
+<hr>
+
 
 
 # Thank You
