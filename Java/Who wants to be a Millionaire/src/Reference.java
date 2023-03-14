@@ -3,10 +3,10 @@ import java.util.Scanner; // Import the Scanner class
 
 public class Reference {
 
-    public Reference() { 
+    public Reference() {
     }
 
-    public void game_info() {  // game_info means Game Information 
+    public void game_info() {  // game_info means Game Information
         Integer number_of_questions = 15;  // Here I have used Wrapper Class = Integer
         System.out.println("There will be total of "+number_of_questions+" Question !!!");
 
@@ -47,10 +47,10 @@ public class Reference {
 
                 // If the price value is less than $ 1000 then below if loop will be executed
                 if (value_of_price[i] <= 1000) {
-                    
+
                     String answer = array("A"); // To fetch the value of answer from array("A") and store it in the variable
                     // There are 3 function with name ARRAY with different parameters. I have used the concept of method overloading here
-                    // array("A") = String 
+                    // array("A") = String
                     // array(1) = integer
                     // array(3.2f) = float
                     // Concept of Method Overloading is used
@@ -68,10 +68,10 @@ public class Reference {
                     } else {
                         variable =validator(answer);
                     }
-                } 
+                }
 
 
-                // If the price value is less than $ 32000 and more than 1000 then below if loop will be executed 
+                // If the price value is less than $ 32000 and more than 1000 then below if loop will be executed
                 else if ((value_of_price[i] > 1000) && (value_of_price[i] <= 32000)) {
                     String answer = array(1); // To fetch the value of answer from array(1) and store it in the variable
 
@@ -79,7 +79,7 @@ public class Reference {
                     System.out.print("Do you wanna use a Lifeline (y/n):  ");
                     String x = sc2.next();
 
-                     // If the user want to use a lifeline then the flow of execution will be transferred to Lifeline function/Method otherwise it will move to validator function/Method
+                    // If the user want to use a lifeline then the flow of execution will be transferred to Lifeline function/Method otherwise it will move to validator function/Method
                     if (x.equals("y")) {
                         variable =Lifeline(answer);
 
@@ -87,7 +87,7 @@ public class Reference {
                         variable =validator(answer);
 
                     }
-                } 
+                }
                 // If the price value is less than $ 1000000 and more than 32000 then below if loop will be executed
                 else if ((value_of_price[i] > 32000) && (value_of_price[i] <= 1000000)) {
                     String answer = array(3.2f); // To fetch the value of answer from array(3.2f) and store it in the variable
@@ -104,7 +104,7 @@ public class Reference {
                         variable =validator(answer);
                     }
 
-                } 
+                }
                 // To check whether the values are successfully retrieving from the array or not
                 else {
                     System.out.println("Price Money Out of Range");
@@ -136,7 +136,7 @@ public class Reference {
         String return_str="A"; //Assigning a variable
         Scanner sc3 = new Scanner(System.in); // creating scanner object differently so that the code can be easily understood
         System.out.print("Enter your Answer [A,B,C,D]: ");
-        String answer_validate = sc3.next(); // To get the input from the user 
+        String answer_validate = sc3.next(); // To get the input from the user
 
         if (answer_validate.equals(answer)) {
             System.out.println("Hurray Your Answer is Correct");
@@ -149,12 +149,12 @@ public class Reference {
 
     }
 
-    
+
 
     // This is the Lifeline function which is executed when the user want to use a lifeline
     public static String Lifeline(String ans) {
         String return_str = "A"; // Same as validator function
-        Scanner sc1 = new Scanner(System.in); 
+        Scanner sc1 = new Scanner(System.in);
 
         // For message
         System.out.printf("(A) Audience Poll%n(B) X2%n(C) 50:50%n(D) Call an Expert");
@@ -181,7 +181,7 @@ public class Reference {
 
             }
 
-        } 
+        }
         // When user enters B = "X2" then this loop will be executed
         else if (x2.equals("B")) {
             System.out.println("You are using X2 Lifeline !!!");
@@ -195,13 +195,13 @@ public class Reference {
                     break; //to break the loop if answer is correct
                 }
             }
-            
-        } 
+
+        }
         // When user enters C = " 50:50 " then this loop will be executed
         else if (x2.equals("C")) {
             System.out.println("You are using 50:50  Lifeline !!!");
 
-            
+
             String arr[] = { "A", "B", "C", "D" };
             double theRandomNumber = Math.floor(Math.random() * 4) + 1; // To get a random value from the above Single-D array
             int interger_value = (int) theRandomNumber; // To store the index in integer form
@@ -217,25 +217,25 @@ public class Reference {
                 System.out.println("OOPS, Your Answer is Incorrect");
                 return_str="B";
             }
-        } 
+        }
         // When user enters D = "Ask the Expert" then this loop will be executed
         // "Ask the expert" is same as "Audience Poll". Logic is also same
-        else if (x2.equals("D")) { 
+        else if (x2.equals("D")) {
             String Str= "new1"; // To create a string
             // here, I used the concept of do while loop in such a form that the loop will be executed once only.
             do{
-            System.out.println("You are using ASK THE EXPERT Lifeline !!!");
-            System.out.println("Correct answer is: " + ans);
-            System.out.print("Enter your Answer [A,B,C,D]: ");
-            String answer_validate = sc1.next();
-            if (answer_validate.equals(ans)) {
-                System.out.println("Hurray, Your Answer is Correct");
-            } else {
-                System.out.println("OOPS, Your Answer is Incorrect");
-                return_str="B";
+                System.out.println("You are using ASK THE EXPERT Lifeline !!!");
+                System.out.println("Correct answer is: " + ans);
+                System.out.print("Enter your Answer [A,B,C,D]: ");
+                String answer_validate = sc1.next();
+                if (answer_validate.equals(ans)) {
+                    System.out.println("Hurray, Your Answer is Correct");
+                } else {
+                    System.out.println("OOPS, Your Answer is Incorrect");
+                    return_str="B";
 
-            }
-        }while(Str.equals("new"));  // change the equals so that the loop will be executed once.
+                }
+            }while(Str.equals("new"));  // change the equals so that the loop will be executed once.
 
         }
         return return_str;
@@ -273,7 +273,7 @@ public class Reference {
                 { "A = Toyota || B = Ford || C = BMW || D = Ferrari" },
                 { "A = 364 || B = 365 || C = 400 || D = 366" },
                 { "A = Jimmy Fallon || B = Oprah Winfrey || C = Anne Curry  || D = Bob Barker" }
-             };
+        };
 
         // Use of Random function from the math library to get a random question from the above 15 question with answer
         double theRandomNumber = Math.floor(Math.random() * 15) + 1;
@@ -327,7 +327,7 @@ public class Reference {
                 { "A = Ignorant || B = Noble || C = Old || D = Smitten" } };
 
 
-         // Use of Random function from the math library to get a random question from the above 15 question with answer
+        // Use of Random function from the math library to get a random question from the above 15 question with answer
         double theRandomNumber = Math.floor(Math.random() * 15) + 1;
         int convert_into_integer = (int) theRandomNumber;
 

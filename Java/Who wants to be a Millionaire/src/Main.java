@@ -1,8 +1,8 @@
-// NOTE = I have used the Format Document function. After Formatting, the files was messy and hard to understand so I indent all the statement in the "easy to understand" manner. 
+// NOTE = I have used the Format Document function. After Formatting, the files was messy and hard to understand so I indent all the statement in the "easy to understand" manner.
 
-// NOTE = Here, Lifeline is made available for infinite times to check the code working or not till 15 questions. 
+// NOTE = Here, Lifeline is made available for infinite times to check the code working or not till 15 questions.
 
-// NOTE = Sometimes it get the error , I don't know why. Sometimes its works perfectly fine. Please check multiple times for output. 
+// NOTE = Sometimes it get the error , I don't know why. Sometimes its works perfectly fine. Please check multiple times for output.
 
 
 
@@ -49,7 +49,7 @@ public class Main {
                 System.out.println("------Welcome to the world of quizzes------");
                 break;
             default: // If any of the above case is not satisfied then the default statement will be
-                     // display. Default does not require break statement so I haven't used it.
+                // display. Default does not require break statement so I haven't used it.
                 System.out.println("------Hello Everyone------");
         }
 
@@ -63,7 +63,7 @@ public class Main {
             System.out.println();
 
             System.out.print("Press 'y' to start the game:  ");
-            
+
             String x = sc.next(); // To get the output from the user
             if (x.equals("y")) {
                 System.out.println();
