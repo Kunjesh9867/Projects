@@ -28,3 +28,18 @@ C:\Users\kunje\Desktop\PENDRIVE\C#\CSharp_Final_Assignment\CSharp_Final_Assignme
 C:\Users\kunje\Desktop\PENDRIVE\C#\CSharp_Final_Assignment\CSharp_Final_Assignment\obj\Debug\net6.0\CSharp_Final_Assignment.pdb
 C:\Users\kunje\Desktop\PENDRIVE\C#\CSharp_Final_Assignment\CSharp_Final_Assignment\obj\Debug\net6.0\CSharp_Final_Assignment.genruntimeconfig.cache
 C:\Users\kunje\Desktop\PENDRIVE\C#\CSharp_Final_Assignment\CSharp_Final_Assignment\obj\Debug\net6.0\ref\CSharp_Final_Assignment.dll
+C:\Users\kunje\Desktop\Project_local\C-Sharp\Restaurant Management\CSharp_Final_Assignment\bin\Debug\net6.0\CSharp_Final_Assignment.exe
+C:\Users\kunje\Desktop\Project_local\C-Sharp\Restaurant Management\CSharp_Final_Assignment\bin\Debug\net6.0\CSharp_Final_Assignment.deps.json
+C:\Users\kunje\Desktop\Project_local\C-Sharp\Restaurant Management\CSharp_Final_Assignment\bin\Debug\net6.0\CSharp_Final_Assignment.runtimeconfig.json
+C:\Users\kunje\Desktop\Project_local\C-Sharp\Restaurant Management\CSharp_Final_Assignment\bin\Debug\net6.0\CSharp_Final_Assignment.dll
+C:\Users\kunje\Desktop\Project_local\C-Sharp\Restaurant Management\CSharp_Final_Assignment\bin\Debug\net6.0\CSharp_Final_Assignment.pdb
+C:\Users\kunje\Desktop\Project_local\C-Sharp\Restaurant Management\CSharp_Final_Assignment\obj\Debug\net6.0\CSharp_Final_Assignment.csproj.AssemblyReference.cache
+C:\Users\kunje\Desktop\Project_local\C-Sharp\Restaurant Management\CSharp_Final_Assignment\obj\Debug\net6.0\CSharp_Final_Assignment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kunje\Desktop\Project_local\C-Sharp\Restaurant Management\CSharp_Final_Assignment\obj\Debug\net6.0\CSharp_Final_Assignment.AssemblyInfoInputs.cache
+C:\Users\kunje\Desktop\Project_local\C-Sharp\Restaurant Management\CSharp_Final_Assignment\obj\Debug\net6.0\CSharp_Final_Assignment.AssemblyInfo.cs
+C:\Users\kunje\Desktop\Project_local\C-Sharp\Restaurant Management\CSharp_Final_Assignment\obj\Debug\net6.0\CSharp_Final_Assignment.csproj.CoreCompileInputs.cache
+C:\Users\kunje\Desktop\Project_local\C-Sharp\Restaurant Management\CSharp_Final_Assignment\obj\Debug\net6.0\CSharp_Final_Assignment.dll
+C:\Users\kunje\Desktop\Project_local\C-Sharp\Restaurant Management\CSharp_Final_Assignment\obj\Debug\net6.0\refint\CSharp_Final_Assignment.dll
+C:\Users\kunje\Desktop\Project_local\C-Sharp\Restaurant Management\CSharp_Final_Assignment\obj\Debug\net6.0\CSharp_Final_Assignment.pdb
+C:\Users\kunje\Desktop\Project_local\C-Sharp\Restaurant Management\CSharp_Final_Assignment\obj\Debug\net6.0\CSharp_Final_Assignment.genruntimeconfig.cache
+C:\Users\kunje\Desktop\Project_local\C-Sharp\Restaurant Management\CSharp_Final_Assignment\obj\Debug\net6.0\ref\CSharp_Final_Assignment.dll

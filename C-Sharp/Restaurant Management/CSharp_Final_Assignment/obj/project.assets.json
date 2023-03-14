@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kunje\\Documents\\PENDRIVE\\C#\\CSharp_Final_Assignment\\CSharp_Final_Assignment\\CSharp_Final_Assignment.csproj",
+      "projectUniqueName": "C:\\Users\\kunje\\Desktop\\Project_local\\C-Sharp\\Restaurant Management\\CSharp_Final_Assignment\\CSharp_Final_Assignment.csproj",
       "projectName": "CSharp_Final_Assignment",
-      "projectPath": "C:\\Users\\kunje\\Documents\\PENDRIVE\\C#\\CSharp_Final_Assignment\\CSharp_Final_Assignment\\CSharp_Final_Assignment.csproj",
+      "projectPath": "C:\\Users\\kunje\\Desktop\\Project_local\\C-Sharp\\Restaurant Management\\CSharp_Final_Assignment\\CSharp_Final_Assignment.csproj",
       "packagesPath": "C:\\Users\\kunje\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kunje\\Documents\\PENDRIVE\\C#\\CSharp_Final_Assignment\\CSharp_Final_Assignment\\obj\\",
+      "outputPath": "C:\\Users\\kunje\\Desktop\\Project_local\\C-Sharp\\Restaurant Management\\CSharp_Final_Assignment\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\kunje\\AppData\\Roaming\\NuGet\\NuGet.Config"
