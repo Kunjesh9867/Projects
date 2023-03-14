@@ -5,7 +5,7 @@
 - I have created this game for fun in my leisure time.
 - In this game, I have created a Console-based battle game.
 
-> <mark>Players</mark>
+> <mark style="background-color: #FFFF00">Players</mark>
 >   
 > It is played between 
 
