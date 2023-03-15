@@ -7,9 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Kunjesh_Final_Assignment" />
+        <module name="Calculator" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Calculator" target="19" />
       <module name="Kunjesh_Final_Assignment" target="19" />
     </bytecodeTargetLevel>
   </component>
