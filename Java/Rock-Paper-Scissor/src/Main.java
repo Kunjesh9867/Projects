@@ -64,6 +64,7 @@ public class Main {
 
         }
         System.out.println("Game Over. Thank you for playing :)");
+        // Game Over!
 
     }
 
