@@ -1,4 +1,4 @@
-# **Calcuator GUI**
+# **Calculator GUI**
 
 
 ## **Introduction**
