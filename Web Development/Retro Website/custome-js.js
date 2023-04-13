@@ -10,3 +10,7 @@ document.addEventListener("DOMContentLoaded", (loaded) => {
     document.getElementById("home_h1_2").innerHTML = "Her way of showing love to people, is through her cooking.";
     document.getElementById("heading_product").innerHTML = "Welcome to PRODUCT PAGE !!!";
 });
+
+document.getElementById("buttonid"){
+    alert("Your Response has been noted.");
+}

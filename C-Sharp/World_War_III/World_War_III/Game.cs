@@ -114,7 +114,7 @@ class Game
         playerHealthChoice = Convert.ToInt16(Console.ReadLine()); // Convert string into integer
         
         Console.WriteLine();
-        Console.WriteLine("Your armor is: "+nameOfArmor[playerHealthChoice-1]); // To display armor's name to useer
+        Console.WriteLine("Your armor is: "+nameOfArmor[playerHealthChoice-1]); // To display armor's name to user
         
         /*
          Health of armors
