@@ -5,7 +5,7 @@
 
 In this GUI, I have created sitting arrangement for 9 students.
 
-There are various roles on the basis of which student will get a random place out of 9 different places.
+There are rules on the basis of which student will get a random place out of 9 different places.
 
 <details>
 <summary>RULES</summary>
