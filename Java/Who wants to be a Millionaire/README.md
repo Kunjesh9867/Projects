@@ -56,31 +56,32 @@ There are stops just like the Real Game.
 5. Udemy
 
 ## **Game Screenshots**
+<hr>
 
 <div align="center"><h3>Introduction</h3></div>
-<hr> 
 
 ![Screenshot-1](./images/SS-1.png)
 ![Screenshot-2](./images/SS-2.png)
+<hr>
+<hr>
 
 <div align="center"><h3>Game</h3></div>
-<hr>
 
 ![Screenshot-3](./images/SS-3.png)
 
 <hr>
+<hr>
 
 <div align="center"><h3>Using Lifelines</h3></div>
-<hr>
 
 ![Screenshot-4](./images/SS-4.png)
 
 ![Screenshot-5](./images/SS-5.png)
 <hr>
+<hr>
 
 <div align="center"><h3>Terminating the Program</h3></div>
-<hr>
 
 ![Screenshot-6](./images/SS-6.png)
 
-# <div align="center">**A Big Thank You!**</div>
+ # <div align="center">**A Big Thank You!**</div>
