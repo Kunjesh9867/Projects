@@ -8,7 +8,7 @@ There are rules on the basis of which student will get a random place out of 9 d
 
 <blockquote>
 <details>
-<summary>RULES</summary>
+<summary><b>RULES</b></summary>
 
 1. White color is not valid.
 2. Same name is not valid (case-sensitive).
