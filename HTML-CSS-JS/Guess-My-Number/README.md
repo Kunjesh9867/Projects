@@ -31,7 +31,7 @@ You can clone & run this game in your PC.
 
 ## **GUI Screenshots**
 
-<div align="center" style="font-size: 2em"><h2><b>Intial Screen</b></h2></div>
+<div align="center" style="font-size: 3em"><p><b>Intial Screen</b></p></div>
 
 <div align="center">
 
@@ -41,37 +41,7 @@ You can clone & run this game in your PC.
 ---
 ---
 
-<div align="center" style="font-size: 2em"><h2><b>When number is Too Low!</b></h2></div>
-
-<div align="center">
-
-![GUI-2](./images/img-2.png)
-</div>
-
----
----
-
-<div align="center" style="font-size: 2em"><h2><b>When number is Too High!</b></h2></div>
-
-<div align="center">
-
-![GUI-3](./images/img-3.png)
-</div>
-
----
----
-
-<div align="center" style="font-size: 2em"><h2><b>Correct Number</b></h2></div>
-
-<div align="center">
-
-![GUI-4](./images/img-4.png)
-</div>
-
----
----
-
-<div align="center" style="font-size: 2em"><h2><b>No Number</b></h2></div>
+<div align="center" style="font-size: 3em"><p><b>No Number</b></p></div>
 
 <div align="center">
 
@@ -81,11 +51,41 @@ You can clone & run this game in your PC.
 ---
 ---
 
-<div align="center" style="font-size: 2em"><h2><b>Restarting the Game again!</b></h2>
+<div align="center" style="font-size: 3em"><p><b>When number is Too Low!</b></p></div>
+
+<div align="center">
+
+![GUI-2](./images/img-2.png)
 </div>
 
-## <div align="center">
+---
+---
+
+<div align="center" style="font-size: 3em"><p><b>When number is Too High!</b></p></div>
+
+<div align="center">
+
+![GUI-3](./images/img-3.png)
+</div>
+
+---
+---
+
+<div align="center" style="font-size: 3em"><p><b>Correct Number</b></p></div>
+
+<div align="center">
+
+![GUI-4](./images/img-4.png)
+</div>
+
+---
+---
+
+<div align="center" style="font-size: 3em"><p><b>Restarting the Game again!</b></p>
+</div>
+
+ <div align="center">
 
 ![GUI-6](./images/img-6.png)
 
-# <div align="center" style="font-size: 3em">**A Big Thank You!**</div>
+# <div align="center" style="font-size: 4em">**A Big Thank You!**</div>
