@@ -27,7 +27,7 @@
 ## Project features
 
 - This idea can be implemented in real life applications.
-- To enhance user's experience, GUI can be added.
+- To enhance user's experience, GUI can be added. As I don't have much knowledge about C#, I will try to make it using Java and add GUI using JavaFX.
   
 ## Programming Language and Technologies used
 
@@ -81,7 +81,5 @@
 <div>Terminating the Program</div>
 
 ![Exit-Screenshot](./images/SS-8.png)
-
-<hr>
 
 # <div align="center">**A Big Thank You!**</div>
