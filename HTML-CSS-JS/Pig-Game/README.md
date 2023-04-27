@@ -6,11 +6,11 @@
 
 * ### Now, the active player have to roll a dice
 
-* ### After rolling a dice, the active player can either hold the current point or continue to roll dice
+* ### After rolling a dice, the active player can either hold the current points or continue to roll dice
 
 * ### If the next number on dice is 1 then all the current point will be reset to 0, and the opponent player will continue to play
 
-* ### Whosever reaches 100 point, will win the game
+* ### Whosever reaches 100 points, will win the game
 
 You can clone & run this game in your PC.
 

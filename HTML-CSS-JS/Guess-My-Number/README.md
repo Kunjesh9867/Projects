@@ -33,7 +33,7 @@ You can clone & run this game in your PC.
 1. Online Lectures
 2. Google
 
-## **GUI Screenshots**
+## **Screenshots**
 
 <div align="center" style="font-size: 5em"><h2><b>1. Initial Screen</b></h2></div>
 
