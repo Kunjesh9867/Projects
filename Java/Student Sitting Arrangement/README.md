@@ -20,16 +20,17 @@ There are rules on the basis of which student will get a random place out of 9 d
 
 It's a working model.
 
-You can clone & run this model in your PC, just make a connection between of SceneBuilder with IntelliJ :1st_place_medal:
+You can clone & run this model in your PC, just make a connection of SceneBuilder with IntelliJ :1st_place_medal:
 
 ## **Programming Language and Technologies used**
 
-- [x] Java 
+- [x] Java
 - [x] SceneBuilder
 - [x] JetBrains IntelliJ
 - [x] Git
 
 ## **Concepts Used**
+
 > AnchorPane (Label, Rectangle, Line, Pane, Text, TextField, Button, ColorPicker)
 >
 > Some Formatting (color-gradient, font-size, height, width, alignment etc.)
@@ -43,7 +44,6 @@ You can clone & run this model in your PC, just make a connection between of Sce
 
 <div align="center"><h3><b>GUI initial Screen</b></h3></div>
 
-
 <div align="center">
 
 ![GUI-1](./images/SS-1.png)
@@ -51,6 +51,7 @@ You can clone & run this model in your PC, just make a connection between of Sce
 
 <hr> 
 <hr> 
+
 <div align="center"><h3><b>White color error</b></h3></div>
 
 <div align="center">
@@ -60,6 +61,7 @@ You can clone & run this model in your PC, just make a connection between of Sce
 
 <hr> 
 <hr> 
+
 <div align="center"><h3><b>Same name error</b></h3></div>
 
 <div align="center">
@@ -69,6 +71,7 @@ You can clone & run this model in your PC, just make a connection between of Sce
 
 <hr> 
 <hr> 
+
 <div align="center"><h3><b>Same color error</b></h3></div>
 
 <div align="center">
@@ -78,6 +81,7 @@ You can clone & run this model in your PC, just make a connection between of Sce
 
 <hr> 
 <hr> 
+
 <div align="center"><h3><b>9 Entries Maximum!</b></h3></div>
 
 <div align="center">
@@ -87,6 +91,7 @@ You can clone & run this model in your PC, just make a connection between of Sce
 
 <hr> 
 <hr> 
+
 <div align="center"><h3><b>Trying to Enter 10th Entry</b></h3></div>
 
 <div align="center">
