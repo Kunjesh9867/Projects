@@ -2,9 +2,9 @@
 
 ## **Introduction**
 
-* ### In this game, computer will generate a random number between 1 and 20 and user will have to guess it.
+* ### In this game, computer will generate a random number between 1 and 20 and user will have to guess it
 
-* ### Each time user guess incorrectly, 1 point will be deducted from Score.
+* ### Each time user guess incorrectly, 1 point will be deducted from Score
 
 * ### At the end, Highscore will be noted
 
@@ -12,9 +12,11 @@ You can clone & run this game in your PC.
 
 ## **Programming Language and Technologies used**
 
-- [x] HTML, CSS & JS
-- [x] Visual Studio Code
-- [x] Git
+* [x] HTML, CSS & JS
+
+* [x] Visual Studio Code
+
+* [x] Git
 
 ## **Concepts Used**
 
@@ -89,5 +91,6 @@ You can clone & run this game in your PC.
  <div align="center">
 
 ![image-6](./images/img-6.png)
+</div>
 
 # <div align="center" style="font-size: 4em">**A Big Thank You!**</div>
