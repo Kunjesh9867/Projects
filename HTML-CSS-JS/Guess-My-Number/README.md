@@ -2,9 +2,11 @@
 
 ## **Introduction**
 
-In this game, computer will generate a random number between 1 and 20 and user will have to guess it.
-Each time user guess incorrectly, 1 point will be deducted from Score.
-At the end, Highscore will be noted.
+* ### In this game, computer will generate a random number between 1 and 20 and user will have to guess it.
+
+* ### Each time user guess incorrectly, 1 point will be deducted from Score.
+
+* ### At the end, Highscore will be noted
 
 You can clone & run this game in your PC.
 
@@ -26,8 +28,8 @@ You can clone & run this game in your PC.
 
 ## **Resources**
 
-1. Google
-2. Online Lectures
+1. Online Lectures
+2. Google
 
 ## **GUI Screenshots**
 
@@ -35,7 +37,7 @@ You can clone & run this game in your PC.
 
 <div align="center">
 
-![GUI-1](./images/img-1.png)
+![image-1](./images/img-1.png)
 </div>
 
 ---
@@ -45,7 +47,7 @@ You can clone & run this game in your PC.
 
 <div align="center">
 
-![GUI-5](./images/img-5.png)
+![image-2](./images/img-5.png)
 </div>
 
 ---
@@ -55,7 +57,7 @@ You can clone & run this game in your PC.
 
 <div align="center">
 
-![GUI-2](./images/img-2.png)
+![image-3](./images/img-2.png)
 </div>
 
 ---
@@ -65,7 +67,7 @@ You can clone & run this game in your PC.
 
 <div align="center">
 
-![GUI-3](./images/img-3.png)
+![image-4](./images/img-3.png)
 </div>
 
 ---
@@ -75,7 +77,7 @@ You can clone & run this game in your PC.
 
 <div align="center">
 
-![GUI-4](./images/img-4.png)
+![image-5](./images/img-4.png)
 </div>
 
 ---
@@ -86,6 +88,6 @@ You can clone & run this game in your PC.
 
  <div align="center">
 
-![GUI-6](./images/img-6.png)
+![image-6](./images/img-6.png)
 
 # <div align="center" style="font-size: 4em">**A Big Thank You!**</div>
