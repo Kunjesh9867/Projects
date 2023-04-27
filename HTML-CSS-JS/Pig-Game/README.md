@@ -2,11 +2,11 @@
 
 ## **Introduction**
 
-* ### This game can be played between 2 players. Two prompt windows will be appeared to write the player's name
+* ### This game can be played between 2 players. Two prompt windows will be appeared for the player's name
 
 * ### Now, the active player have to roll a dice
 
-* ### After rolling a dice, the active player can either hold that number or continue to roll dice
+* ### After rolling a dice, the active player can either hold the current point or continue to roll dice
 
 * ### If the next number on dice is 1 then all the current point will be reset to 0, and the opponent player will continue to play
 
@@ -115,6 +115,7 @@ You can clone & run this game in your PC.
 ![image-7](./images/win.png)
 
 </div>
+
 ---
 ---
 
