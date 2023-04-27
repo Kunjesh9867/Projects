@@ -46,19 +46,19 @@
 
 <div align="center"><h2>(1) Customer</h2></div>
 
-<div align="center">Introduction & Main Menu</div>
+<div>Introduction & Main Menu</div>
 
 ![Customer-Screenshot-1](./images/SS-1.png)
 
-<div align="center">Choosing a specific item from menu</div>
+<div>Choosing a specific item from menu</div>
 
 ![Customer-Screenshot-2](./images/SS-2.png)
 
-<div align="center">Returning to Main Menu & Choosing another item</div>
+<div>Returning to Main Menu & Choosing another item</div>
 
 ![Customer-Screenshot-3](./images/SS-3.png)
 
-<div align="center">Completing the order & displaying Subtotal </div>
+<div>Completing the order & displaying Subtotal </div>
 
 ![Customer-Screenshot-4](./images/SS-4.png)
 
@@ -78,7 +78,7 @@
 
 <div align="center"><h2>(3) Exit</h2></div>
 
-<div align="center">Terminating the Program</div>
+<div>Terminating the Program</div>
 
 ![Exit-Screenshot](./images/SS-8.png)
 
