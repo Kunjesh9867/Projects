@@ -30,14 +30,11 @@
 4. GeeksforGeeks
 5. Stack Overflow
 
-## **Game Screenshots**
+## **Game Screenshots** 
 
 <div align="center"><h2><b>(1) Introduction</b></h2></div>
 
 ![Game-Introduction](./images/SS-1.png)
-
-<hr>
-<hr>
 
 <div align="center"><h2><b>(2) Main interface</b></h2></div>
 
@@ -45,7 +42,6 @@
 
 ![Page-1](./images/SS-2.png)
 
-<hr>
 
 <div align="center" style="font-size: 1.5em;">Page-2</div>
 
