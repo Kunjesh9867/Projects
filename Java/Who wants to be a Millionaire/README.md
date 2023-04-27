@@ -1,21 +1,20 @@
 # **Who wants to be a Millionaire?**
 
-
 ## **Introduction**
 
 In this Assignment, I have created a Console-based Quiz Game.
 There are total 15 questions.
-There are 3 difficulty Levels
 <details>
 <summary>There are 3 difficulty Levels</summary>
 
 1. Easy (1 to 5)
 2. Moderate (6 to 10)
 3. Hard (11 - 15)
+
 </details>
 
-
 ## **Game Features**
+
 <details>
 <summary>4 Lifelines are given to users</summary>
 
@@ -23,18 +22,19 @@ There are 3 difficulty Levels
 2. X2 = User will get 2 chances
 3. 50:50 = 2 options will be omitted
 4. Call an Expert = Correct answer will appear
+
 </details>
 
-Moreover, user can quit the game and get the previous price amount. 
+Moreover, user can quit the game and get the previous price amount.
 There are stops just like the Real Game.  
   
 ## **Programming Language and Technologies used**
- 
+
 - [x] Java
 - [x] JetBrains IntelliJ
 
-
 ## **Concepts Used**
+
 > Correlation between main and reference files
 >
 > Global and Local variable
@@ -47,8 +47,8 @@ There are stops just like the Real Game.
 >
 > Exceptional Handling (try-catch block)
 
-
 ## **Resources**
+
 1. College Notes
 2. YouTube Tutorials
 3. W3Schools
@@ -56,19 +56,21 @@ There are stops just like the Real Game.
 5. Udemy
 
 ## **Game Screenshots**
-<div align="center"><b>Introduction</b></div>
+
+<div align="center"><h3>Introduction</h3></div>
 <hr> 
 
 ![Screenshot-1](./images/SS-1.png)
 ![Screenshot-2](./images/SS-2.png)
 
-<div align="center"><b>Game</b></div>
+<div align="center"><h3>Game</h3></div>
 <hr>
 
 ![Screenshot-3](./images/SS-3.png)
 
 <hr>
-<div align="center">Using Lifelines</div>
+
+<div align="center"><h3>Using Lifelines</h3></div>
 <hr>
 
 ![Screenshot-4](./images/SS-4.png)
@@ -76,10 +78,9 @@ There are stops just like the Real Game.
 ![Screenshot-5](./images/SS-5.png)
 <hr>
 
-<div align="center">Terminating the Program</div>
+<div align="center"><h3>Terminating the Program</h3></div>
 <hr>
 
 ![Screenshot-6](./images/SS-6.png)
 
 # <div align="center">**A Big Thank You!**</div>
-
