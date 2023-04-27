@@ -44,9 +44,7 @@
 
 ## Screenshots
 
-<hr>
-
-<div align="center"><h2>(1) Customer</h2></div><hr>
+<div align="center"><h2>(1) Customer</h2></div>
 
 <div align="center">Introduction & Main Menu</div>
 
@@ -64,9 +62,7 @@
 
 ![Customer-Screenshot-4](./images/SS-4.png)
 
-<hr>
-
-<div align="center"><h2>(2) Admin</h2></div><hr>
+<div align="center"><h2>(2) Admin</h2></div>
 
 <div align="center">Asking for Password & Displaying Main Menu</div>
 
@@ -80,9 +76,7 @@
 
 ![Admin-Screenshot-3](./images/SS-7.png)
 
-<hr>
-
-<div align="center"><h2>(3) Exit</h2></div><hr>
+<div align="center"><h2>(3) Exit</h2></div>
 
 <div align="center">Terminating the Program</div>
 
