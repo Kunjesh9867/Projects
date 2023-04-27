@@ -10,12 +10,15 @@ There are rules on the basis of which student will get a random place out of 9 d
 <details>
 <summary><b>RULES</b></summary>
 
-1. White color is not valid.
-2. Same name is not valid (case-sensitive).
-3. Same color is not valid.
-4. Same name and Same Color is not valid. [When you add same name and same color, it will give an error just like 2nd Rules. Why? Because we input name first then color, so name is checked first, and it will give error at that point]
-5. Only 9 Entries.
+<b>1. White color is not valid.</b>
 
+<b>2. Same name is not valid (case-sensitive).</b>
+
+<b>3. Same color is not valid.</b>
+
+<b>4. Same name and Same Color is not valid. [When you add same name and same color, it will give an error just like 2nd Rules. Why? Because we input name first then color, so name is checked first, and it will give error at that point]</b>
+
+<b>5. Only 9 Entries.</b>
 </details>
 </blockquote>
 
