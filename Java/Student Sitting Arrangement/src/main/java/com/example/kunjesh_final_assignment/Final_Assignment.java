@@ -164,7 +164,7 @@ public class Final_Assignment {
             }
             case "Color_Taken" -> {
                 messageToBeDisplayed.setText("INVALID COLOR");
-                messageToBeDisplayed.setStyle("-fx-background-color: rgba(255,0,0,.3)");
+                messageToBeDisplayed.setStyle("-fx-background-color: rgba(241,8,8,0.3)");
                 messageToBeDisplayed.setVisible(true);
             }
             case "White_Background" -> {
