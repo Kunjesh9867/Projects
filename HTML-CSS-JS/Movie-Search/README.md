@@ -8,7 +8,7 @@
 
 * [x] HTML, CSS & JS
 
-* [x] REST API (fetch())
+* [x] REST API
 
 * [x] Visual Studio Code
 
