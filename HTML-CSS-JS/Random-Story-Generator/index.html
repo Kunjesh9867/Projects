@@ -1,0 +1,87 @@
+<!-- 
+Assignment-1
+Group-2: Aarsh Parimal Patel - 200520260, 
+         Daxil Ashishkumar Patel - 200520270, 
+         Kunjesh Kantilal Ramani - 200515106
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Assignment 1 | COMP1073 Client-Side JavaScript</title>
+  </head>
+
+  <body>
+    <!-- adding our video -->
+    <div class="video-background">
+      <video autoplay muted loop>
+        <source src="./video/bgvid.mp4" type="video/mp4" />
+      </video>
+    </div>
+
+    
+    <br />
+    <br />
+    <h2 class="text-center text-dark-emphasis fw-bolder">
+      Random Story Generator
+    </h2>
+    <br />
+    <div class="text-center">
+      <!-- adding our three required buttons -->
+      <section>
+        <button id="create" class="btn btn-primary create-button">
+          Create
+        </button>
+        <button id="reset" class="btn btn-primary reset-button">Reset</button>
+        <button id="randomStory" class="btn btn-primary randomStory-button">
+          Random Story
+        </button>
+      </section>
+      <br />
+      <br />
+      <!-- this will display error if the buttons are not pressed sequentially while creating a sentence -->
+      <p id="paraError" class="paraError"></p>
+
+      <!-- this will display ur sentence -->
+      <p id="para" class="para"></p>
+      <!-- adding our buttons -->
+      <div class="wordButtons">
+        <button
+          type="button"
+          id="first"
+          class="btn btn-outline-primary custom-button"
+        >
+          1
+        </button>
+        <button id="second" class="btn btn-outline-primary custom-button2">
+          2
+        </button>
+        <button id="third" class="btn btn-outline-primary custom-button3">
+          3
+        </button>
+        <button id="fourth" class="btn btn-outline-primary custom-button4">
+          4
+        </button>
+        <button id="fifth" class="btn btn-outline-primary custom-button5">
+          5
+        </button>
+      </div>
+      <br />
+
+      <!-- adding our image -->
+      <img src="./img/game.png" class="img-fluid border-5" alt="Game" />
+
+      <br /><br />
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
+<!-- end of html -->

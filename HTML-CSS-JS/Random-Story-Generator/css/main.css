@@ -1,0 +1,194 @@
+@charset "utf-8";
+
+/* Assignment 1 | COMP1073 Client-Side JavaScript */
+/* 
+ Group-2: Aarsh Parimal Patel - 200520260,
+ Daxil Ashishkumar Patel - 200520270, 
+ Kunjesh Kantilal Ramani - 200515106 
+ */
+.video-background {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  width: 300px;
+  height: 300px;
+  z-index: -1;
+}
+
+h1 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.custom-button {
+  color: purple;
+  border-color: purple;
+  font-size: 18px;
+  border-width: 5px;
+  border-radius: 50px;
+  font-weight: bolder;
+  margin-right: 64px;
+}
+
+.custom-button:hover {
+  color: white;
+  background-color: purple;
+  border-color: purple;
+}
+
+.custom-button2 {
+  color: rgb(0, 183, 255);
+  border-color: rgb(0, 183, 255);
+  font-size: 18px;
+  border-width: 5px;
+  border-radius: 50px;
+  font-weight: bolder;
+  margin-right: 64px;
+}
+
+.custom-button2:hover {
+  color: white;
+  background-color: rgb(1, 117, 162);
+  border-color: rgb(1, 117, 162);
+}
+
+.custom-button3 {
+  color: rgb(0, 255, 0);
+  border-color: rgb(0, 255, 0);
+  font-size: 18px;
+  border-width: 5px;
+  border-radius: 50px;
+  font-weight: bolder;
+  margin-right: 64px;
+}
+
+.custom-button3:hover {
+  color: white;
+  background-color: darkgreen;
+  border-color: darkgreen;
+}
+
+.custom-button4 {
+  color: rgb(255, 166, 0);
+  border-color: rgb(255, 166, 0);
+  font-size: 18px;
+  border-width: 5px;
+  border-radius: 50px;
+  font-weight: bolder;
+  margin-right: 64px;
+}
+
+.custom-button4:hover {
+  color: white;
+  background-color: darkorange;
+  border-color: darkorange;
+}
+
+.custom-button5 {
+  color: rgb(255, 56, 245);
+  border-color: rgb(255, 56, 245);
+  font-size: 18px;
+  border-width: 5px;
+  border-radius: 50px;
+  font-weight: bolder;
+  margin-right: 64px;
+}
+
+.custom-button5:hover {
+  color: white;
+  background-color: rgb(233, 17, 252);
+  border-color: rgb(233, 17, 252);
+}
+
+.create-button {
+  color: white;
+  background-color: blue;
+  border-color: blue;
+  font-size: 18px;
+  border-width: 5px;
+  border-radius: 50px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.create-button:hover {
+  color: white;
+  background-color: darkblue;
+  border-color: darkblue;
+}
+
+.reset-button {
+  color: white;
+  background-color: red;
+  border-color: red;
+  font-size: 18px;
+  border-width: 5px;
+  border-radius: 50px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.reset-button:hover {
+  color: white;
+  background-color: darkred;
+  border-color: darkred;
+}
+
+.randomStory-button {
+  color: white;
+  background-color: rgb(202, 202, 0);
+  border-color: rgb(202, 202, 0);
+  font-size: 18px;
+  border-width: 5px;
+  border-radius: 50px;
+  font-weight: bold;
+  margin-right: 10px;
+
+}
+
+.randomStory-button:hover {
+  color: white;
+  background-color: rgb(158, 158, 3);
+  border-color: rgb(158, 158, 3);
+}
+
+.img-fluid {
+  border-style: groove;
+  border-radius: 50px;
+  border-color: rgb(255, 213, 136);
+  width: 575px;
+  height: 575px;
+}
+
+.para {
+  background-color: antiquewhite;
+  /* width: 600px;
+  height: 100px; */
+  font-weight: bolder;
+  font-size: 28px;
+width: auto;
+margin-left: 400px;
+margin-right: 400px;
+
+
+}
+
+.paraError {
+  background-color: antiquewhite;
+  /* width: 600px;
+  height: 100px; */
+  font-weight: bolder;
+  font-size: 20px;
+  color: red;
+  width: auto;
+margin-left: 200px;
+margin-right: 200px;
+
+}
+
+.wordButtons {
+  padding-left: 55px;
+}
+/* end of css code */
