@@ -1,4 +1,4 @@
-# **MachoMeals**
+div# **MachoMeals**
 
 ## **Introduction**
 
@@ -25,6 +25,12 @@ rewards and programs where customers can get points and receive
 discounts. This kind of website allows customers to track these from
 their fingertips. Customer Feedback and Review: The website includes features that allow
 customers to provide feedback, rate their experiences, and write reviews.
+
+| Views           |
+| :---            |
+| Admin           |
+| Customer        |
+| General Public  |
 
 ## **Programming Language and Technologies used**
 
@@ -73,14 +79,12 @@ customers to provide feedback, rate their experiences, and write reviews.
 
 </div>
 
-
 <div align="center" style="font-size: 5em"><h2><b>Login</b></h2></div>
 
 <div align="center">
 
 ![image-3](./images/Login.png)
 </div>
-
 
 <div align="center" style="font-size: 5em"><h2><b>Cart Detail of Customer</b></h2></div>
 
@@ -89,14 +93,12 @@ customers to provide feedback, rate their experiences, and write reviews.
 ![image-4](./images/CartDetail.png)
 </div>
 
-
 <div align="center" style="font-size: 5em"><h2><b>Stripe Payment</b></h2></div>
 
 <div align="center">
 
 ![image-5.1](./images/StripePayment.png)
 </div>
-
 
 <div align="center" style="font-size: 5em"><h2><b>Manage your Account</b></h2></div>
 
