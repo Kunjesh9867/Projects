@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kunje\\Desktop\\Hey\\Main\\GroovyGoods (3)\\GroovyGoods\\GroovyGoods.csproj": {}
+    "C:\\Users\\kunje\\Dropbox\\GitHub\\Projects\\ASP.NET\\GroovyGoods.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kunje\\Desktop\\Hey\\Main\\GroovyGoods (3)\\GroovyGoods\\GroovyGoods.csproj": {
+    "C:\\Users\\kunje\\Dropbox\\GitHub\\Projects\\ASP.NET\\GroovyGoods.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kunje\\Desktop\\Hey\\Main\\GroovyGoods (3)\\GroovyGoods\\GroovyGoods.csproj",
+        "projectUniqueName": "C:\\Users\\kunje\\Dropbox\\GitHub\\Projects\\ASP.NET\\GroovyGoods.csproj",
         "projectName": "GroovyGoods",
-        "projectPath": "C:\\Users\\kunje\\Desktop\\Hey\\Main\\GroovyGoods (3)\\GroovyGoods\\GroovyGoods.csproj",
+        "projectPath": "C:\\Users\\kunje\\Dropbox\\GitHub\\Projects\\ASP.NET\\GroovyGoods.csproj",
         "packagesPath": "C:\\Users\\kunje\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kunje\\Desktop\\Hey\\Main\\GroovyGoods (3)\\GroovyGoods\\obj\\",
+        "outputPath": "C:\\Users\\kunje\\Dropbox\\GitHub\\Projects\\ASP.NET\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kunje\\AppData\\Roaming\\NuGet\\NuGet.Config",
