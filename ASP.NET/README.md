@@ -27,7 +27,7 @@ their fingertips. Customer Feedback and Review: The website includes features th
 customers to provide feedback, rate their experiences, and write reviews.
 
 | Views           |
-| :---            |
+| :---:            |
 | Admin           |
 | Customer        |
 | General Public  |
