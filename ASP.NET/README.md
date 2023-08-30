@@ -26,11 +26,11 @@ discounts. This kind of website allows customers to track these from
 their fingertips. Customer Feedback and Review: The website includes features that allow
 customers to provide feedback, rate their experiences, and write reviews.
 
-| Views           |
+| Views            |
 | :---:            |
-| Admin           |
-| Customer        |
-| General Public  |
+| 1. Admin         |
+| 2. Customer      |
+| 3. General Public|
 
 ## **Programming Language and Technologies used**
 
