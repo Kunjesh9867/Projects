@@ -1,0 +1,104 @@
+﻿@model IEnumerable<GroovyGoods.Models.Order>
+
+@{
+    ViewData["Title"] = "orders";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f8f8f8;
+        color: #333;
+    }
+
+    header {
+        background-color: #fff;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    nav {
+        display: inline-block;
+    }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+            nav ul li {
+                display: inline;
+                margin-right: 20px;
+            }
+
+                nav ul li a {
+                    text-decoration: none;
+                    color: #333;
+                    font-weight: bold;
+                }
+</style>
+<br></br>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.UserId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Total)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ShippingAddress)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PaymentReceived)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PaymentMethod)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cart)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.UserId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Total)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ShippingAddress)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PaymentReceived)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PaymentMethod)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Cart.Id)
+                </td>
+                <td>
+                    
+                    <a asp-action="OrderDetails" asp-route-id="@item.Id">Details</a> |
+           
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

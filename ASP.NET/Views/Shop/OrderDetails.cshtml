@@ -1,0 +1,66 @@
+﻿@model GroovyGoods.Models.Order
+
+@{
+    if (Model == null || Model.Cart.CartItems == null || Model.Cart.CartItems.Count == 0)
+    {
+        <div class="alert alert-warning">
+            <p>You must add items to your cart!</p>
+        </div>
+
+        return;
+
+    }
+}
+
+@{
+    ViewData["Title"] = "Order Details for " + Model.Cart.User.Email;
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Product Name</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th>Subtotal</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (var cartItem in Model.Cart.CartItems)
+            {
+                var subtotal = cartItem.Quantity * cartItem.Price;
+
+                <tr>
+                    <td>@cartItem.Product.Name</td>
+                    <td>@cartItem.Quantity</td>
+                    <td>@cartItem.Price</td>
+                    <td>@subtotal</td>
+
+
+                </tr>
+            }
+
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th>Total:</th>
+                <td colspan="3" style="text-align: right">@Model.Total</td>
+
+
+            </tr>
+        </tfoot>
+
+    </table>
+</div>
+
+<div>
+
+    <a asp-action="Index">Back to Departments</a>
+</div>
+

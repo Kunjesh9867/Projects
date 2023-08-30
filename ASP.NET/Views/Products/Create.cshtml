@@ -1,0 +1,64 @@
+﻿@model GroovyGoods.Models.Product
+
+@{
+    ViewData["Title"] = "Create";
+    ViewData["Title2"] = "Product";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>@ViewData["Title"]</h1>
+<h5>@ViewData["Title2"]</h5>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group my-3">
+                <label asp-for="ArtistId" class="control-label"></label>
+                <select asp-for="ArtistId" class ="form-control" asp-items="ViewBag.ArtistId"></select>
+            </div>
+            <div class="form-group my-3">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group my-3">
+                <label asp-for="Description" class="control-label"></label>
+                <input asp-for="Description" class="form-control" />
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group my-3">
+                <label asp-for="Price" class="control-label"></label>
+                <input asp-for="Price" class="form-control" />
+                <span asp-validation-for="Price" class="text-danger"></span>
+            </div>
+            <div class="form-group my-3">
+                <label asp-for="Image_URL" class="control-label"></label>
+                <input asp-for="Image_URL" class="form-control" />
+                <span asp-validation-for="Image_URL" class="text-danger"></span>
+            </div>
+            <div class="form-group my-3">
+                <label asp-for="Released" class="control-label"></label>
+                <input asp-for="Released" class="form-control" />
+                <span asp-validation-for="Released" class="text-danger"></span>
+            </div>
+            <div class="form-group my-3">
+                <label asp-for="Quantity" class="control-label"></label>
+                <input asp-for="Quantity" class="form-control" />
+                <span asp-validation-for="Quantity" class="text-danger"></span>
+            </div>
+            <div class="form-group my-3">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
