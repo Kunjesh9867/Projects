@@ -47,8 +47,7 @@
 ![image-1](./images/home.png)
 </div>
 
----
----
+
 
 <div align="center" style="font-size: 5em"><h2><b>2. Flight Details</b></h2></div>
 
@@ -68,8 +67,7 @@
 ![image-2](./images/adminbookflight.png)
 </div>
 
----
----
+
 
 <div align="center" style="font-size: 5em"><h2><b>3. About Us</b></h2></div>
 
@@ -78,8 +76,7 @@
 ![image-3](./images/about.png)
 </div>
 
----
----
+
 
 <div align="center" style="font-size: 5em"><h2><b>4. Follow US</b></h2></div>
 
@@ -88,8 +85,6 @@
 ![image-4](./images/followUS.png)
 </div>
 
----
----
 
 <div align="center" style="font-size: 5em"><h2><b>5. Login Page</b></h2></div>
 
@@ -98,8 +93,7 @@
 ![image-5](./images/login.png)
 </div>
 
----
----
+
 
 <div align="center" style="font-size: 5em"><h2><b>6. Register Page</b></h2>
 </div>
